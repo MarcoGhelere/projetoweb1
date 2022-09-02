@@ -10,6 +10,7 @@ h1 {
 
 body {
     background-color: #171920;
+    overflow-x: hidden;
 }
 
 .center{ 
