@@ -14,7 +14,7 @@ body {
 }
 
 .center{ 
-    padding: 0 17%; 
+    padding: 0 100px; 
 }
 
 header {
@@ -82,7 +82,7 @@ nav a:hover{
 }
 
 .cover {
-    padding: 250px 0;
+    padding: 125px 0;
 }
 
 .cover h1{
@@ -94,14 +94,40 @@ nav a:hover{
 
 }
 
+/* fieldset {
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    color: #909090;
+    letter-spacing: 5px;
+    border-bottom:1px solid #5d5d5d;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+} */
+
 .news h1 {
     font-size: 20px;
     color: #909090;
     letter-spacing: 5px;
 }
 
+.linediv {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.line {
+    flex: 1;
+    display:inline-block;
+    content: ' ';
+    border-bottom: 1.5px solid #5d5d5d;
+}
+
 .rectangles {
     padding: 50px 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 .largerectangle {
@@ -118,9 +144,12 @@ nav a:hover{
     z-index: -1;
     height: 100vh;
     width: 100vw;
+    
     /* -webkit-mask-image: linear-gradient(to top, transparent 10%, #171920); */
     -webkit-mask-image: linear-gradient(transparent -10%, #171920, transparent 95%);
     background: url("assets/promo_1920.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
