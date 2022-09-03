@@ -127,7 +127,7 @@ nav a:hover{
 }
 
 .line {
-    /* flex: 1; */
+    flex: 1;
     display:inline-block;
     /* content: ' '; */
     border-bottom: 1.5px solid #5d5d5d;
