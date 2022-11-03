@@ -223,6 +223,18 @@ nav a:hover{
     background-color: #E12A31;
 }
 
+.loginsection { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginsection h1 {
+    font-size: 20px;
+    color: #909090;
+    letter-spacing: 5px;
+}
+
 @media (max-width: 1200px) {
     .desktopheader{
         display: none;
